@@ -2,11 +2,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #e0f7fa; /* Light blue background */
 }
 
 header {
-    background-color: #333;
+    background-color: #007bb5; /* Dark blue header */
     color: #fff;
     padding: 1em 0;
 }
@@ -26,10 +26,11 @@ nav ul li a {
     color: #fff;
     text-decoration: none;
     font-size: 1.2em;
+    transition: color 0.3s;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
+    color: #ffeb3b; /* Yellow on hover */
 }
 
 main {
@@ -38,21 +39,24 @@ main {
 
 section {
     margin-bottom: 2em;
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 2em;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
 }
 
 section h1, section h2 {
     margin-top: 0;
+    color: #007bb5; /* Dark blue headings */
 }
 
 footer {
-    background-color: #333;
+    background-color: #007bb5; /* Dark blue footer */
     color: #fff;
     text-align: center;
     padding: 1em 0;
     position: fixed;
     bottom: 0;
     width: 100%;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 }
